@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
   background-color: #f1f1f1;
   height: 100vh;
 }
@@ -22,30 +22,39 @@
 .timer {
   display: flex;
   font-size: 55px;
+  font-weight: bold;
   color: #333;
 }
-.time {
+
+.time{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+  color: #172953;
   min-width: 90px;
 }
+
 .separator {
   padding: 0 10px;
   color: #525763;
 }
-.milliseconds {
+
+#milliseconds {
   font-size: 30px;
   color: #525763;
+
 }
+
 .buttons {
   display: flex;
   gap: 1rem;
 }
+
 .btn {
   padding: 10px 20px;
   font-size: 18px;
+  font-weight: bold;
   border-radius: 30px;
   cursor: pointer;
   border: 1px solid #ccc;
